@@ -79,3 +79,18 @@ h1 {
   margin-top: 10px;
   font-weight: bold;
 }
+
+.logo {
+  max-width: 60px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  justify-content: space-evenly;
+  line-height: 50px;
+}
+
+nav {
+  padding: 20px;
+}
