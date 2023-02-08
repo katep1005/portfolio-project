@@ -69,7 +69,8 @@ h1 {
   border-radius: 20px;
 }
 
-.work-content h1 {
+.work-content h1,
+.contact-page h1 {
   font-size: 50px;
   margin: 50px 20px;
 }
