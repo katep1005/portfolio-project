@@ -16,7 +16,11 @@ h1 {
 
 .hero {
   text-align: center;
-  background-color: var(--background-colour);
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
   color: var(--primary-colour);
   padding: 130px 20px;
 }
@@ -82,15 +86,4 @@ h1 {
 
 .logo {
   max-width: 60px;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  justify-content: space-evenly;
-  line-height: 50px;
-}
-
-nav {
-  padding: 20px;
 }
