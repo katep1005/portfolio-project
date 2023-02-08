@@ -68,3 +68,14 @@ h1 {
 .main-pics {
   border-radius: 20px;
 }
+
+.work-content h1 {
+  font-size: 50px;
+  margin: 50px 20px;
+}
+
+.work-content h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
