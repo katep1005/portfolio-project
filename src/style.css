@@ -1,9 +1,11 @@
 :root {
   --primary-colour: #35bcbf;
+  --main-font: "Montserrat", sans-serif;
+  --background-colour: #282323;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--main-font);
   max-width: 100%;
 }
 
@@ -14,7 +16,7 @@ h1 {
 
 .hero {
   text-align: center;
-  background-color: #282323;
+  background-color: var(--background-colour);
   color: var(--primary-colour);
   padding: 130px 20px;
 }
@@ -41,4 +43,24 @@ h1 {
   .container {
     text-align: center;
   }
+}
+
+.about-section img {
+  border-radius: 10px;
+  display: block;
+  margin: 85px 30px;
+}
+
+.about-section h1 {
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 15px;
 }
