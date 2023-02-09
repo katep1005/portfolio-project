@@ -2,6 +2,7 @@
   --primary-colour: #35bcbf;
   --main-font: "Montserrat", sans-serif;
   --background-colour: #282323;
+  --logo-font: "Shadows Into Light", cursive;
 }
 
 body {
@@ -10,8 +11,10 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-family: var(--logo-font);
+  font-size: 100px;
   font-weight: bold;
+  padding: 10px;
 }
 
 .hero {
@@ -22,12 +25,13 @@ h1 {
     rgb(74, 98, 110) 131%
   );
   color: var(--primary-colour);
-  padding: 130px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
   font-weight: bold;
   font-size: 25px;
+  padding: 0;
 }
 
 .hero h2 {
