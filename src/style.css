@@ -84,7 +84,8 @@ h1 {
 }
 
 .work-content h2 {
-  font-size: 20px;
+  font-family: var(--logo-font);
+  font-size: 30px;
   margin-top: 10px;
   font-weight: bold;
 }
@@ -94,7 +95,9 @@ h1 {
 }
 
 .certificates {
-  max-width: 500px;
+  display: block;
+  justify-content: center;
+  width: 400px;
 }
 
 footer {
@@ -142,4 +145,12 @@ footer .social-links a:hover,
 
 .featured-projects {
   margin-bottom: 100px;
+}
+
+.nav-link {
+  font-family: var(--logo-font);
+  font-size: 30px;
+  padding: 20px;
+  color: var(--primary-colour);
+  font-weight: bold;
 }
