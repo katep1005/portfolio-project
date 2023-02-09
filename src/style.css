@@ -8,6 +8,7 @@
 body {
   font-family: var(--main-font);
   max-width: 100%;
+  padding: 0;
 }
 
 h1 {
@@ -75,10 +76,14 @@ h1 {
 .main-pics {
   width: 400px;
   border-radius: 20px;
+  align-items: center;
+  padding: 0px;
+  margin: 0 150px;
 }
 
 .work-content h1,
 .contact-page h1 {
+  text-align: center;
   font-size: 50px;
   margin: 50px 20px;
 }
@@ -88,6 +93,7 @@ h1 {
   font-size: 30px;
   margin-top: 10px;
   font-weight: bold;
+  text-align: center;
 }
 
 .logo {
