@@ -1,7 +1,7 @@
 :root {
   --primary-colour: #35bcbf;
   --main-font: "Montserrat", sans-serif;
-  --background-colour: #282323;
+  --background-colour: #3f525e;
   --logo-font: "Shadows Into Light", cursive;
 }
 
@@ -25,7 +25,7 @@ h1 {
     rgb(74, 98, 110) 131%
   );
   color: var(--primary-colour);
-  padding: 120px 20px;
+  padding: 140px 20px;
 }
 
 .hero p {
@@ -73,6 +73,7 @@ h1 {
 }
 
 .main-pics {
+  width: 400px;
   border-radius: 20px;
 }
 
@@ -94,4 +95,41 @@ h1 {
 
 .certificates {
   max-width: 500px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-colour);
+  font-size: 40px;
+  background-color: var(--background-colour);
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover,
+.btn:hover {
+  color: var(--background-colour);
+  background-color: var(--primary-colour);
+}
+
+.btn {
+  font-weight: bold;
+  color: var(--primary-colour);
+  border: none;
+  background-color: var(--background-colour);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 100ms ease-in-out;
+}
+
+.small-title {
+  font-family: var(--logo-font);
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.featured-projects h2 {
+  font-family: var(--logo-font);
 }
