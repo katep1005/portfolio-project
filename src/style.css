@@ -154,7 +154,8 @@ footer .social-links a:hover,
   h1 {
     font-size: 50px;
   }
-  .container {
+  .container,
+  .hero {
     text-align: center;
   }
   .main-pics {
@@ -163,9 +164,10 @@ footer .social-links a:hover,
     margin-left: auto;
     margin-right: auto;
   }
-  .hero {
-    text-align: center;
+  .work-pics {
+    display: none;
   }
+
   .certificates {
     display: block;
     max-width: 100%;
