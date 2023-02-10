@@ -183,6 +183,9 @@ footer .social-links a:hover,
   .about-section h2 {
     font-size: 15px;
   }
+  .about-section p {
+    font-size: 10px;
+  }
 }
 
 .contact-page a {
