@@ -79,10 +79,9 @@ h1 {
   margin: 50px 20px;
 }
 
-.work-content h2 {
+.work-title {
   font-family: var(--logo-font);
   font-size: 30px;
-  margin-top: 10px;
   font-weight: bold;
   text-align: center;
 }
@@ -167,5 +166,9 @@ footer .social-links a:hover,
   }
   .hero {
     text-align: center;
+  }
+  .certificates {
+    display: block;
+    max-width: 100%;
   }
 }
