@@ -44,15 +44,6 @@ h1 {
   margin: 20px;
 }
 
-@media (max-width: 500px) {
-  h1 {
-    font-size: 50px;
-  }
-  .container {
-    text-align: center;
-  }
-}
-
 .about-section img {
   border-radius: 10px;
   display: block;
@@ -159,4 +150,16 @@ footer .social-links a:hover,
   padding: 20px;
   color: var(--primary-colour);
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  .container {
+    text-align: center;
+  }
+  img {
+    max-width: 50%;
+  }
 }
