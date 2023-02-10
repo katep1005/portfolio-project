@@ -172,6 +172,10 @@ footer .social-links a:hover,
     display: block;
     max-width: 100%;
   }
+
+  .contact-footer {
+    display: none;
+  }
 }
 
 .contact-page a {
